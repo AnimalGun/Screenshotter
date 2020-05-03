@@ -9,16 +9,16 @@ from termcolor import colored
 root = Tk()
 root.withdraw()
 
-print(colored('Please select the path you want to store your screenshots: ' , 'red'))
+print('Please select the path you want to store your screenshots: ')
 time.sleep(2)
 chosendir = filedialog.askdirectory()
 screenshotspath = os.chdir(chosendir)
 print("Path you chose is: ", chosendir + '\n')
 
-print(colored("Please choose the amount of screenshots you want to make: ", 'red'))
+print("Please choose the amount of screenshots you want to make: ")
 chosenloops = input()
 
-print(colored("Script is starting in 5 seconds!\nEnjoy!", 'green'))
+print("Script is starting in 5 seconds!\nEnjoy!")
 time.sleep(5)
 
 def all_script():
