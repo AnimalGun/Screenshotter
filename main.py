@@ -21,7 +21,7 @@ print("Script is starting in 5 seconds!\nEnjoy!")
 time.sleep(5)
 
 def all_script():
-    for f in range(int(chosenloops)):
+    for i in range(int(chosenloops)):
         time.sleep(1)
         keyboard.press('page_down')
         if keyboard.is_pressed('page_down'):
