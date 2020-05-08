@@ -4,7 +4,6 @@ import pyautogui
 from tkinter import *
 from tkinter import filedialog
 import os
-from termcolor import colored
 
 root = Tk()
 root.withdraw()
